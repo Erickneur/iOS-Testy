@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602192CF23D643980076CC38 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602192CE23D643980076CC38 /* Protocols.swift */; };
+		602192D123D66DCC0076CC38 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602192D023D66DCC0076CC38 /* MenuOptionCell.swift */; };
+		602A6271240F01D30089DB90 /* text_spanish.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 602A6270240F01D30089DB90 /* text_spanish.stringsdict */; };
+		602A6274240F03590089DB90 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602A6276240F03590089DB90 /* Localizable.strings */; };
+		602A6281240F0B040089DB90 /* icon_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A627C240F0B030089DB90 /* icon_facebook.png */; };
+		602A6282240F0B040089DB90 /* icon_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A627D240F0B030089DB90 /* icon_twitter.png */; };
+		602A6283240F0B040089DB90 /* icon_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A627E240F0B030089DB90 /* icon_user.png */; };
+		602A6284240F0B040089DB90 /* icon_google.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A627F240F0B040089DB90 /* icon_google.png */; };
+		602A6285240F0B040089DB90 /* icon_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A6280240F0B040089DB90 /* icon_password.png */; };
+		602A6287240F0B6F0089DB90 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602A6286240F0B6F0089DB90 /* Login.storyboard */; };
+		602A628B240F0EE30089DB90 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A6289240F0EE30089DB90 /* background.png */; };
+		602A628C240F0EE30089DB90 /* label_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 602A628A240F0EE30089DB90 /* label_login.png */; };
+		602A628E240F122C0089DB90 /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602A628D240F122C0089DB90 /* LocalizableLabel.swift */; };
+		602A6290240F14E20089DB90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602A628F240F14E20089DB90 /* LoginViewController.swift */; };
+		602A6292240F1B0F0089DB90 /* LocalizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602A6291240F1B0F0089DB90 /* LocalizableButton.swift */; };
 		607A462B23D261940094F1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A462A23D261940094F1AD /* AppDelegate.swift */; };
 		607A462D23D261940094F1AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A462C23D261940094F1AD /* SceneDelegate.swift */; };
 		607A463223D261940094F1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A463023D261940094F1AD /* Main.storyboard */; };
@@ -17,6 +32,7 @@
 		607A466523D26CBB0094F1AD /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A466423D26CBB0094F1AD /* ContainerController.swift */; };
 		607A466723D26CE20094F1AD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A466623D26CE20094F1AD /* HomeController.swift */; };
 		607A466923D26CF90094F1AD /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A466823D26CF90094F1AD /* MenuController.swift */; };
+		60DFAE2C23E2015E00F3D620 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFAE2B23E2015E00F3D620 /* MenuOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +53,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602192CE23D643980076CC38 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		602192D023D66DCC0076CC38 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuOptionCell.swift; path = sidemenu/MenuOptionCell.swift; sourceTree = SOURCE_ROOT; };
+		602A6270240F01D30089DB90 /* text_spanish.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = text_spanish.stringsdict; sourceTree = "<group>"; };
+		602A6275240F03590089DB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		602A6277240F04B20089DB90 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		602A6278240F04B30089DB90 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		602A627A240F04CF0089DB90 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		602A627C240F0B030089DB90 /* icon_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_facebook.png; sourceTree = "<group>"; };
+		602A627D240F0B030089DB90 /* icon_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_twitter.png; sourceTree = "<group>"; };
+		602A627E240F0B030089DB90 /* icon_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_user.png; sourceTree = "<group>"; };
+		602A627F240F0B040089DB90 /* icon_google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_google.png; sourceTree = "<group>"; };
+		602A6280240F0B040089DB90 /* icon_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_password.png; sourceTree = "<group>"; };
+		602A6286240F0B6F0089DB90 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		602A6289240F0EE30089DB90 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		602A628A240F0EE30089DB90 /* label_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = label_login.png; sourceTree = "<group>"; };
+		602A628D240F122C0089DB90 /* LocalizableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
+		602A628F240F14E20089DB90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		602A6291240F1B0F0089DB90 /* LocalizableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableButton.swift; sourceTree = "<group>"; };
 		607A462723D261940094F1AD /* sidemenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidemenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607A462A23D261940094F1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607A462C23D261940094F1AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +87,7 @@
 		607A466423D26CBB0094F1AD /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		607A466623D26CE20094F1AD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		607A466823D26CF90094F1AD /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		60DFAE2B23E2015E00F3D620 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +115,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602A626F240F00910089DB90 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				602A6286240F0B6F0089DB90 /* Login.storyboard */,
+				602A628F240F14E20089DB90 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		602A627B240F0AE10089DB90 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				602A6289240F0EE30089DB90 /* background.png */,
+				602A628A240F0EE30089DB90 /* label_login.png */,
+				602A627C240F0B030089DB90 /* icon_facebook.png */,
+				602A627F240F0B040089DB90 /* icon_google.png */,
+				602A6280240F0B040089DB90 /* icon_password.png */,
+				602A627D240F0B030089DB90 /* icon_twitter.png */,
+				602A627E240F0B030089DB90 /* icon_user.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		602A6288240F0BB30089DB90 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				602A6270240F01D30089DB90 /* text_spanish.stringsdict */,
+				602A6276240F03590089DB90 /* Localizable.strings */,
+				602A628D240F122C0089DB90 /* LocalizableLabel.swift */,
+				602A6291240F1B0F0089DB90 /* LocalizableButton.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
 		607A461E23D261930094F1AD = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +172,9 @@
 		607A462923D261940094F1AD /* sidemenu */ = {
 			isa = PBXGroup;
 			children = (
+				602A6288240F0BB30089DB90 /* constants */,
+				602A627B240F0AE10089DB90 /* images */,
+				602A626F240F00910089DB90 /* login */,
 				607A465D23D269130094F1AD /* Controllers */,
 				607A465C23D269050094F1AD /* Views */,
 				607A465B23D268FD0094F1AD /* Models */,
@@ -138,6 +210,7 @@
 		607A465A23D268F10094F1AD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				602192CE23D643980076CC38 /* Protocols.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -145,6 +218,7 @@
 		607A465B23D268FD0094F1AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				60DFAE2B23E2015E00F3D620 /* MenuOption.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +226,7 @@
 		607A465C23D269050094F1AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				602192D023D66DCC0076CC38 /* MenuOptionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +327,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 607A461E23D261930094F1AD;
 			productRefGroup = 607A462823D261940094F1AD /* Products */;
@@ -271,8 +347,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				607A463723D261A50094F1AD /* LaunchScreen.storyboard in Resources */,
+				602A628B240F0EE30089DB90 /* background.png in Resources */,
+				602A6285240F0B040089DB90 /* icon_password.png in Resources */,
 				607A463423D261A50094F1AD /* Assets.xcassets in Resources */,
+				602A6281240F0B040089DB90 /* icon_facebook.png in Resources */,
+				602A6282240F0B040089DB90 /* icon_twitter.png in Resources */,
+				602A6274240F03590089DB90 /* Localizable.strings in Resources */,
+				602A628C240F0EE30089DB90 /* label_login.png in Resources */,
+				602A6271240F01D30089DB90 /* text_spanish.stringsdict in Resources */,
 				607A463223D261940094F1AD /* Main.storyboard in Resources */,
+				602A6283240F0B040089DB90 /* icon_user.png in Resources */,
+				602A6284240F0B040089DB90 /* icon_google.png in Resources */,
+				602A6287240F0B6F0089DB90 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +383,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602A628E240F122C0089DB90 /* LocalizableLabel.swift in Sources */,
+				602192D123D66DCC0076CC38 /* MenuOptionCell.swift in Sources */,
+				60DFAE2C23E2015E00F3D620 /* MenuOption.swift in Sources */,
 				607A462B23D261940094F1AD /* AppDelegate.swift in Sources */,
 				607A466723D26CE20094F1AD /* HomeController.swift in Sources */,
 				607A462D23D261940094F1AD /* SceneDelegate.swift in Sources */,
+				602192CF23D643980076CC38 /* Protocols.swift in Sources */,
+				602A6292240F1B0F0089DB90 /* LocalizableButton.swift in Sources */,
 				607A466923D26CF90094F1AD /* MenuController.swift in Sources */,
+				602A6290240F14E20089DB90 /* LoginViewController.swift in Sources */,
 				607A466523D26CBB0094F1AD /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,10 +429,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		602A6276240F03590089DB90 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602A6275240F03590089DB90 /* en */,
+				602A627A240F04CF0089DB90 /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		607A463023D261940094F1AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				607A463123D261940094F1AD /* Base */,
+				602A6277240F04B20089DB90 /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -349,6 +451,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				607A463623D261A50094F1AD /* Base */,
+				602A6278240F04B30089DB90 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -360,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

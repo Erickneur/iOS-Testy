@@ -1,0 +1,13 @@
+/* 
+  text_spanish.strings
+  sidemenu
+
+  Created by Erick Dávila on 3/3/20.
+  Copyright © 2020 Erick Dávila. All rights reserved.
+*/
+
+"login" = "Login";
+"accept" = "Accept";
+"without_account" = "Don't have an account?";
+"signup" = "Create your account";
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p2s-vT-Rb4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="3EE-wN-uJo">
+            <objects>
+                <viewController id="oOU-At-0ec" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C1q-co-Lhc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihj-Qs-oZy">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1M6-i2-lHO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="label_login.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDz-dU-afs">
+                                                <rect key="frame" x="40" y="22" width="120" height="60"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="without_account" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFO-6j-74c" customClass="LocalizableLabel" customModule="sidemenu" customModuleProvider="target">
+                                                <rect key="frame" x="40" y="87" width="126" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyY-XX-iDy" customClass="LocalizableButton" customModule="sidemenu" customModuleProvider="target">
+                                                <rect key="frame" x="175" y="82" width="46" height="30"/>
+                                                <state key="normal" title="signup">
+                                                    <color key="titleColor" name="rose"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="CyY-XX-iDy" firstAttribute="centerY" secondItem="YFO-6j-74c" secondAttribute="centerY" id="1XD-8f-Shd"/>
+                                            <constraint firstItem="iDz-dU-afs" firstAttribute="width" secondItem="1M6-i2-lHO" secondAttribute="width" multiplier="0.289855" id="2Zi-ox-i4h"/>
+                                            <constraint firstItem="YFO-6j-74c" firstAttribute="top" secondItem="iDz-dU-afs" secondAttribute="bottom" constant="5" id="3JN-FZ-POs"/>
+                                            <constraint firstItem="iDz-dU-afs" firstAttribute="top" secondItem="1M6-i2-lHO" secondAttribute="top" constant="22" id="NOz-Pc-KBk"/>
+                                            <constraint firstItem="iDz-dU-afs" firstAttribute="leading" secondItem="1M6-i2-lHO" secondAttribute="leading" constant="40" id="bBq-6o-PKh"/>
+                                            <constraint firstItem="CyY-XX-iDy" firstAttribute="leading" secondItem="YFO-6j-74c" secondAttribute="trailing" constant="9" id="cAV-Fk-2rb"/>
+                                            <constraint firstItem="iDz-dU-afs" firstAttribute="height" secondItem="1M6-i2-lHO" secondAttribute="height" multiplier="0.0775194" id="gla-yz-gBT"/>
+                                            <constraint firstItem="YFO-6j-74c" firstAttribute="leading" secondItem="iDz-dU-afs" secondAttribute="leading" id="kEA-f6-0Rt"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="centerX" secondItem="UJ0-QF-ymm" secondAttribute="centerX" id="AmS-HU-ezk"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="bottom" secondItem="Pii-l5-irq" secondAttribute="bottom" id="Dya-Vn-9KN"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="height" secondItem="UJ0-QF-ymm" secondAttribute="height" priority="250" id="IfT-Fr-fbz"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="centerY" secondItem="UJ0-QF-ymm" secondAttribute="centerY" id="W2k-us-lxq"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="leading" secondItem="Pii-l5-irq" secondAttribute="leading" id="ZMp-Rj-5k7"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="top" secondItem="Pii-l5-irq" secondAttribute="top" id="dRk-DZ-DNc"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="trailing" secondItem="Pii-l5-irq" secondAttribute="trailing" id="o6I-mJ-sSJ"/>
+                                    <constraint firstItem="1M6-i2-lHO" firstAttribute="width" secondItem="UJ0-QF-ymm" secondAttribute="width" id="syR-3G-x2a"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="UJ0-QF-ymm"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Pii-l5-irq"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ihj-Qs-oZy" firstAttribute="trailing" secondItem="ISH-gC-Ue5" secondAttribute="trailing" id="722-iO-CFh"/>
+                            <constraint firstItem="ihj-Qs-oZy" firstAttribute="top" secondItem="ISH-gC-Ue5" secondAttribute="top" id="L45-SO-wxf"/>
+                            <constraint firstItem="ihj-Qs-oZy" firstAttribute="bottom" secondItem="ISH-gC-Ue5" secondAttribute="bottom" id="Sj2-kr-fnP"/>
+                            <constraint firstItem="ihj-Qs-oZy" firstAttribute="leading" secondItem="ISH-gC-Ue5" secondAttribute="leading" id="g6P-iY-fVB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ISH-gC-Ue5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1po-cV-vyQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhV-Wh-b4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="102.45535714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xsX-Sj-gGF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p2s-vT-Rb4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OTA-2i-jeB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oOU-At-0ec" kind="relationship" relationship="rootViewController" id="vV8-NJ-uTw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5g4-Dr-LGq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788.40579710144937" y="102.45535714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="label_login.png" width="156" height="63"/>
+        <namedColor name="rose">
+            <color red="1" green="0.469291090965271" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
